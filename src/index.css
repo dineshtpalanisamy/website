@@ -7,7 +7,6 @@ body {
 	/* Remove unnecessary margin, padding */
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	overflow-x: hidden;
 }
 /* Default Scroll bar removed */
@@ -60,9 +59,8 @@ body::-webkit-scrollbar {
 }
 
 .nav-links li {
-	font-family: "Poppins"; /* Font family */
-	font-size: 12px; /* Font size */
-	font-weight: 400; /* Font weight */
+	font-size: 16px; /* Font size */
+	font-weight: 500; /* Font weight */
 	line-height: 18px; /* Line height */
 	text-align: left; /* Text alignment */
 	text-underline-position: from-font; /* Position of the underline */
@@ -72,12 +70,12 @@ body::-webkit-scrollbar {
 	position: relative; /* For positioning arrow if needed */
 }
 
-.nav-links li .arrow {
-	font-size: 12px;
-	margin-left: 5px;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%) rotate(90deg); /* Rotates to look like a down arrow */
+.nav-links li::after {
+	content: "\2304";
+	font-size: 20px;
+	color: black;
+	margin-left: 2px;
+	display: inline-block;
 }
 
 /* Get purchase button container */
@@ -87,12 +85,10 @@ body::-webkit-scrollbar {
 }
 
 .get-purchase {
-	position: relative;
 	width: auto;
 	color: #707070;
 	background-color: white;
 	padding: 5px 30px; /* Proper padding */
-	cursor: pointer;
 	border-radius: 20px; /* Rounded corners */
 	font-size: 20px;
 	font-family: "Segoe UI";
@@ -101,32 +97,8 @@ body::-webkit-scrollbar {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border: 2px solid transparent; /* Transparent border */
-	background-clip: padding-box;
-}
-
-.get-purchase::before {
-	content: "";
-	position: absolute;
-	top: -2px;
-	left: -2px;
-	right: -2px;
-	bottom: -2px;
-	background: linear-gradient(45deg, #e7bef3, #013adf);
-	border-radius: inherit; /* Keeps border-radius */
-	z-index: -1;
-}
-
-.get-purchase::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border-radius: inherit;
-	color: inherit;
-	z-index: 0;
+	border-image: linear-gradient(to right, #e7bef3, #013adf);
+	border-image-slice: 1;
 }
 
 .get-purchase:hover {
@@ -213,10 +185,10 @@ body::-webkit-scrollbar {
 		margin-top: 5px;
 		font-size: 8px; */
 	}
-	.get-quote {
+	.get-purchase {
 		font-size: 12px;
 	}
-	.get-quote-container {
+	.get-purchase-container {
 		display: none;
 	}
 }
