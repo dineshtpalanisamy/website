@@ -1,3 +1,36 @@
 .hero {
 	padding: 40px 20px;
 }
+.left-side {
+	padding-left: 60px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	align-items: flex-start;
+	row-gap: 20px;
+}
+.first-box {
+	display: flex;
+	gap: 20px;
+}
+
+.star::after {
+	content: "\2605"; /* Unicode for solid star (★) */
+	font-size: 24px; /* Adjust size */
+	color: orange; /* Set star color */
+	margin-left: 2px;
+}
+h2 {
+	font-size: 20px;
+	color: black;
+	margin-bottom: 20px;
+}
+.second-box {
+	display: flex;
+	flex-wrap: wrap;
+}
+h1 {
+	font-size: 50px;
+	color: black;
+	font-weight: 800;
+}

@@ -8,7 +8,34 @@ const Hero = () => {
 			<div className="hero">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-sm-12 col-md-6 col-lg-6"></div>
+						<div className="col-sm-12 col-md-6 col-lg-6 left-side">
+							<div className="first-box">
+								<div>
+									<div className="d-flex">
+										<div className="star"></div>
+										<div className="star"></div>
+										<div className="star"></div>
+										<div className="star"></div>
+										<div className="star"></div>
+									</div>
+									<div className="star-text">
+										<h2>20,000+ TRUST CUSTOMER</h2>
+									</div>
+								</div>
+								<div>
+									<div className="enamato">
+										<div className="star"></div>
+									</div>
+									<div className="enamato-text">
+										<h2>ENVATO ELITE AUTHOR</h2>
+									</div>
+								</div>
+							</div>
+							<div className="sec-box">
+								<h1> Have your dream site in minutes for University</h1>
+							</div>
+							<div></div>
+						</div>
 						<div className="col-sm-12 col-md-6 col-lg-6">
 							<img
 								src="/assets/banner.png"
