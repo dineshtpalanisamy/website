@@ -63,7 +63,24 @@ const Elements = () => {
 								style={{ width: "100%", height: "auto", objectFit: "contain" }}
 							></img>
 						</div>
-						<div className="col-sm-12 col-lg-6"></div>
+						<div className="col-sm-12 col-lg-6 last-right">
+							<div className="last-right-one">
+								<div className="right-1">ADVANCED FILTER</div>
+								<h1 className="right-2">
+									Find Course With Advanced Filters & Full Customization
+								</h1>
+								<div className="right-3"></div>
+								<div className="right-4">
+									<div className="right-sub-1"></div>
+									<div className="right-sub-2"></div>
+								</div>
+								<div className="right-5">
+									<div className="right-sub-3"></div>
+									<div className="right-sub-4"></div>
+								</div>
+							</div>
+							<div className="last-right-two"></div>
+						</div>
 					</div>
 				</div>
 			</section>

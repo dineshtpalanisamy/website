@@ -63,3 +63,29 @@
 	font-weight: 800;
 	color: #b5b5b5cc;
 }
+.last-right {
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: start;
+}
+.right-1 {
+	width: 130px;
+	padding: 10px 10px;
+	border-radius: 20px;
+	color: #013adf;
+	background-color: #d7dee8;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.right-2 {
+	color: black;
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: bolder;
+	text-align: left;
+}
