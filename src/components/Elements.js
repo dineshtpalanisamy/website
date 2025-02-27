@@ -69,7 +69,9 @@ const Elements = () => {
 							<div className="last-right-one">
 								<div className="right-1">ADVANCED FILTER</div>
 								<h1 className="right-2">
-									Find Course With Advanced Filters & Full Customization
+									Find Course With Advanced{" "}
+									<span className="gradient-text"> Filters</span> & Full
+									Customization
 								</h1>
 								<p className="right-3">
 									Quickly discover the perfect course with powerful,
