@@ -34,7 +34,13 @@ const Hero = () => {
 							<div className="sec-box">
 								<h1> Have your dream site in minutes for University</h1>
 							</div>
-							<div></div>
+							<div className="third-box">
+								<p>
+									The most <span className="bold-underline">powerful</span> yet
+									the <span className="bold-underline">easiest</span> theme
+									ever.
+								</p>
+							</div>
 						</div>
 						<div className="col-sm-12 col-md-6 col-lg-6">
 							<img

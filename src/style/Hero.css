@@ -1,17 +1,20 @@
+/*  */
 .hero {
-	padding: 40px 20px;
+	padding: 40px 20px; /* Responsively allocate space */
 }
 .left-side {
-	padding-left: 60px;
+	padding-inline: 30px; /* allocate space left and right  */
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	text-align: left;
 	align-items: flex-start;
 	row-gap: 20px;
 }
 .first-box {
 	display: flex;
-	gap: 20px;
+	gap: 100px;
+	width: 100%;
 }
 
 .star::after {
@@ -30,7 +33,17 @@ h2 {
 	flex-wrap: wrap;
 }
 h1 {
-	font-size: 50px;
+	font-size: 80px;
+	line-height: 90px;
 	color: black;
 	font-weight: 800;
+}
+.third-box p {
+	font-size: 20px;
+	font-weight: 400;
+}
+.bold-underline {
+	font-weight: bold;
+	text-decoration: underline;
+	text-underline-offset: 8px;
 }
