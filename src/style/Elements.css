@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .elements {
-	padding: 40px 20px;
+	padding: 40px 20px 0 20px; /* Top: 40px, Right: 20px, Bottom: 0, Left: 20px */
 }
 .elements-desc {
 	padding: 40px 0;

@@ -22,7 +22,7 @@ const Elements = () => {
 	];
 	return (
 		<>
-			<div className="elements">
+			<section className="elements">
 				<div className="container elements-desc">
 					<div className="ele-1">
 						<h1>YOU DON'T NEED ANY EXTERNAL PLUGINS.</h1>
@@ -51,7 +51,22 @@ const Elements = () => {
 						<p>SAVE YOUR TIME AND MONEY BY USING READY ELEMENTS</p>
 					</div>
 				</div>
-			</div>
+			</section>
+			<section className="elements">
+				<div className="container">
+					<div className="row">
+						<div className="col-sm-12 col-lg-6">
+							<img
+								src="/assets/last.jpg"
+								alt="Last Section"
+								loading="lazy"
+								style={{ width: "100%", height: "auto", objectFit: "contain" }}
+							></img>
+						</div>
+						<div className="col-sm-12 col-lg-6"></div>
+					</div>
+				</div>
+			</section>
 		</>
 	);
 };
