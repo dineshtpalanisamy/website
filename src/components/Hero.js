@@ -57,21 +57,89 @@ const Hero = () => {
 			<section className="icon-box">
 				<div className="container icon-box-content">
 					<div className="row">
-						<div className="col-sm-12 col-md-6 col-lg-4 card">
-							<figure></figure>
-							<figcaption></figcaption>
+						<div className="col card">
+							<figure>
+								<img
+									src="/assets/icons-01.png"
+									alt="Icon with fast performance description"
+									loading="lazy"
+									style={{
+										width: "60px",
+										height: "60px",
+										objectFit: "contain",
+									}}
+								></img>
+							</figure>
+							<figcaption>
+								<h1>Fast Performance</h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
+									ipsum dolor sit amet.
+								</p>
+							</figcaption>
 						</div>
-						<div className="col-sm-12 col-md-6 col-lg-4 card">
-							<figure></figure>
-							<figcaption></figcaption>
+						<div className="col  card">
+							<figure>
+								<img
+									src="/assets/icons-02.png"
+									alt="Icon with perfect theme description"
+									loading="lazy"
+									style={{
+										width: "60px",
+										height: "60px",
+										objectFit: "contain",
+									}}
+								></img>
+							</figure>
+							<figcaption>
+								<h1>Perfect Responsive</h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
+									ipsum dolor sit amet.
+								</p>
+							</figcaption>
 						</div>
-						<div className="col-sm-12 col-md-6 col-lg-4 card">
-							<figure></figure>
-							<figcaption></figcaption>
+						<div className="col card">
+							<figure>
+								<img
+									src="/assets/icons-03.png"
+									alt="Icon with fast and friendly description"
+									loading="lazy"
+									style={{
+										width: "60px",
+										height: "60px",
+										objectFit: "contain",
+									}}
+								></img>
+							</figure>
+							<figcaption>
+								<h1>Fast and Friendly Support</h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
+									ipsum dolor sit amet.
+								</p>
+							</figcaption>
 						</div>
-						<div className="col-sm-12 col-md-6 col-lg-4 card">
-							<figure></figure>
-							<figcaption></figcaption>
+						<div className="col card">
+							<figure>
+								<img
+									src="/assets/icons-04.png"
+									alt="Icon with fast easy to use description"
+									loading="lazy"
+									style={{
+										width: "60px",
+										height: "60px",
+										objectFit: "contain",
+									}}
+								></img>
+							</figure>
+							<figcaption>
+								<h1>Easy to Use</h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
+									ipsum dolor sit amet.
+								</p>
+							</figcaption>
 						</div>
 					</div>
 				</div>
