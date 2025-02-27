@@ -55,9 +55,9 @@ const Hero = () => {
 				</div>
 			</section>
 			<section className="icon-box">
-				<div className="container icon-box-content">
-					<div className="row">
-						<div className="col card">
+				<div className="container">
+					<div className="row icon-box-content">
+						<div className="col-sm-12 col-lg-4 card">
 							<figure>
 								<img
 									src="/assets/icons-01.png"
@@ -78,7 +78,7 @@ const Hero = () => {
 								</p>
 							</figcaption>
 						</div>
-						<div className="col  card">
+						<div className="col-sm-12 col-lg-4 card">
 							<figure>
 								<img
 									src="/assets/icons-02.png"
@@ -99,7 +99,7 @@ const Hero = () => {
 								</p>
 							</figcaption>
 						</div>
-						<div className="col card">
+						<div className="col-sm-12 col-lg-4 card">
 							<figure>
 								<img
 									src="/assets/icons-03.png"
@@ -120,7 +120,7 @@ const Hero = () => {
 								</p>
 							</figcaption>
 						</div>
-						<div className="col card">
+						<div className="col-sm-12 col-lg-4 card">
 							<figure>
 								<img
 									src="/assets/icons-04.png"
