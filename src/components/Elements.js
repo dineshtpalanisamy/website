@@ -97,7 +97,9 @@ const Elements = () => {
 									</div>
 								</div>
 							</div>
-							<div className="last-right-two"></div>
+							<div className="side-btn">
+								<h2>Features Request</h2>
+							</div>
 						</div>
 					</div>
 				</div>

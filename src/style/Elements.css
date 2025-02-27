@@ -66,10 +66,13 @@
 .last-right {
 	padding: 10px 20px;
 	display: flex;
-	flex-direction: column;
-	justify-content: left;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 	align-items: start;
 	background-color: rgba(251, 248, 254, 0.2); /* 80% opacity */
+}
+.last-right-one {
+	padding: 10px 20px;
 }
 .right-1 {
 	width: 130px;
@@ -93,7 +96,6 @@
 }
 
 .right-3 {
-	width: 500px;
 	color: #b5b5b5cc;
 	font-size: 18px;
 	line-height: 30px;
