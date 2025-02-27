@@ -79,7 +79,11 @@ const Elements = () => {
 
 										<h2>Filter with toggle</h2>
 									</div>
-									<div className="right-sub-2"></div>
+									<div className="right-sub-2">
+										<span className="material-icons">favorite</span>
+
+										<h2>Course with tab</h2>
+									</div>
 								</div>
 								<div className="right-5">
 									<div className="right-sub-3"></div>
