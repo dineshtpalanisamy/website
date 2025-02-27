@@ -29,13 +29,19 @@
 	border-radius: 10px;
 }
 .card-one {
-	background-color: #ff672d;
+	background: url("/public/assets/sun-shadow-right.png") no-repeat center center /
+			cover,
+		#ff672d;
 }
 .card-three {
-	background-color: #43a3ff;
+	background: url("/public/assets/sun-shadow-right-2.png") no-repeat center
+			center / cover,
+		#43a3ff;
 }
 .card-two {
-	background-color: #29c98b;
+	background: url("/public/assets/sun-shadow-right-3.png") no-repeat center
+			center / cover,
+		#29c98b;
 }
 .card-one h1,
 .card-two h1,
