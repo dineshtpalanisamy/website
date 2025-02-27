@@ -4,7 +4,7 @@
 	padding: 60px 20px; /* Responsively allocate space */
 }
 .left-side {
-	padding: 20px 0;
+	padding: 20px 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

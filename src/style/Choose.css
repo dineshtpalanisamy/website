@@ -77,12 +77,8 @@
 	line-height: 15px;
 }
 .gradient {
-	/* height: 550px;
-	background: linear-gradient(
-		to right,
-		rgba(231, 190, 243, 0.5),
-		rgba(215, 222, 232, 0.5)
-	); */
+	height: 600px;
+	padding-inline: 40px;
 }
 .num {
 	position: relative;
@@ -105,12 +101,45 @@
 	line-height: 80px;
 	margin-bottom: 50px;
 }
+.lite-txt {
+	width: 500px;
+	margin: auto;
+	padding: 20px 0;
+}
 .desc h2 {
 	font-size: 20px;
 	line-height: 20px;
 	color: #b5b5b5cc;
-	margin-bottom: 10px;
+	padding: 10px 0;
 }
 .desc p {
+	width: 500px;
+	margin: auto;
+	padding: 10px 0;
+
 	font-size: 12px;
+}
+.arrow {
+	position: relative;
+	bottom: 0;
+}
+
+/* RESPONSIVENESS */
+
+/* Below 768px */
+@media (max-width: 767px) {
+	.number {
+		font-size: 180px;
+	}
+	.gradient {
+		height: 720px;
+	}
+	.lite-txt {
+		padding-inline: 10px;
+		width: auto;
+	}
+	.desc p {
+		padding-inline: 5px;
+		width: auto;
+	}
 }

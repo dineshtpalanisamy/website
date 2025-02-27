@@ -115,9 +115,7 @@ const Choose = () => {
 						<h2 style={{ color: "black" }}>
 							<b>Best-in-class designs to get started</b>
 						</h2>
-						<h2
-							style={{ width: "400px", margin: "auto", marginBottom: "30px" }}
-						>
+						<h2 className="lite-txt">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
 							ipsum dolor sit amet, consectetur adipiscing elit
 						</h2>
@@ -125,6 +123,13 @@ const Choose = () => {
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
 							ipsum dolor sit amet.
 						</p>
+						<div className="arrow">
+							<img
+								src="/assets/arrow-down.png"
+								alt="Arrow symbol"
+								style={{ width: "50px", height: "50px", objectFit: "contain" }}
+							></img>
+						</div>
 					</div>
 				</div>
 			</section>
