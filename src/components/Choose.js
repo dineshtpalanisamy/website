@@ -105,7 +105,29 @@ const Choose = () => {
 					</div>
 				</div>
 			</section>
-			<section className="n"></section>
+			<section className="gradient">
+				<div className="container num">
+					<div className="number">15+</div>
+					<div className="desc">
+						<h1>
+							World Class <br /> Stunnig Demos
+						</h1>
+						<h2 style={{ color: "black" }}>
+							<b>Best-in-class designs to get started</b>
+						</h2>
+						<h2
+							style={{ width: "400px", margin: "auto", marginBottom: "30px" }}
+						>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
+							ipsum dolor sit amet, consectetur adipiscing elit
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem
+							ipsum dolor sit amet.
+						</p>
+					</div>
+				</div>
+			</section>
 		</>
 	);
 };

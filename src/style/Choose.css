@@ -1,5 +1,4 @@
-.choose,
-.num {
+.choose {
 	padding: 40px 20px;
 }
 .all {
@@ -76,4 +75,42 @@
 	font-size: 12px;
 	font-weight: 500;
 	line-height: 15px;
+}
+.gradient {
+	/* height: 550px;
+	background: linear-gradient(
+		to right,
+		rgba(231, 190, 243, 0.5),
+		rgba(215, 222, 232, 0.5)
+	); */
+}
+.num {
+	position: relative;
+}
+.number {
+	font-size: 300px;
+	font-weight: bolder;
+	color: #00000014;
+}
+.desc {
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	z-index: 1;
+}
+.desc h1 {
+	color: #013adf;
+	font-size: 80px;
+	font-weight: bolder;
+	line-height: 80px;
+	margin-bottom: 50px;
+}
+.desc h2 {
+	font-size: 20px;
+	line-height: 20px;
+	color: #b5b5b5cc;
+	margin-bottom: 10px;
+}
+.desc p {
+	font-size: 12px;
 }
