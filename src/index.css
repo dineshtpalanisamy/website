@@ -96,8 +96,23 @@ body::-webkit-scrollbar {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border-image: linear-gradient(to right, #e7bef3, #013adf);
-	border-image-slice: 1;
+	border: 4px solid transparent;
+	background-clip: padding-box;
+	position: relative;
+}
+
+/* Apply gradient*/
+.get-purchase::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 20px; /* Ensures rounded corners */
+	padding: 2px; /* Border thickness */
+	background: linear-gradient(to right, #e7bef3, #013adf);
+	-webkit-mask: linear-gradient(white, white) content-box,
+		linear-gradient(white, white);
+	-webkit-mask-composite: xor;
+	mask-composite: exclude;
 }
 
 .get-purchase:hover {
