@@ -8,6 +8,7 @@
 	row-gap: 20px;
 	justify-content: center;
 	align-items: center;
+	background-color: #00000014;
 }
 .ele-1 h1 {
 	padding: 10px 20px;
@@ -23,4 +24,15 @@
 	font-weight: bolder;
 	line-height: 60px;
 	color: #202020;
+}
+.ele-3 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.icons-txt {
+	padding: 10px 10px;
+	border-radius: 20px;
+	background-color: #ffffff;
 }

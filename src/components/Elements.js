@@ -13,7 +13,22 @@ const Elements = () => {
 					<div className="ele-2">
 						<h1>100+ Elements included.</h1>
 					</div>
-					<div></div>
+					<div className="ele-3">
+						<div className="icons-txt">
+							<div className="d-flex g-5">
+								<div></div>
+								<div>Brand</div>
+							</div>
+						</div>
+						<div className="icons-txt">
+							<div className="d-flex g-5">
+								<div></div>
+								<div>Brand</div>
+							</div>
+						</div>
+
+						<div></div>
+					</div>
 					<div></div>
 				</div>
 			</div>
