@@ -22,7 +22,6 @@ body::-webkit-scrollbar {
 	justify-content: space-between; /* Ensures space between the logo-nav-container and get-quote-container */
 	align-items: center;
 	background: transparent;
-	padding: 0;
 }
 
 /* Logo and nav container */
