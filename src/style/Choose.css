@@ -76,6 +76,9 @@
 	font-weight: 500;
 	line-height: 15px;
 }
+.list-tag:hover {
+	transform: scale(1.05);
+}
 .gradient {
 	height: 700px;
 	padding-inline: 40px;
