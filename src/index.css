@@ -53,7 +53,7 @@ body::-webkit-scrollbar {
 	list-style: none; /* Removes default list styling */
 	margin: 0; /* Removes margin */
 	padding: 0; /* Removes padding */
-	gap: 32px; /* Space between each link */
+	gap: 40px; /* Space between each link */
 }
 
 .nav-links li {
@@ -68,11 +68,13 @@ body::-webkit-scrollbar {
 	position: relative; /* For positioning arrow if needed */
 }
 .nav-links li::after {
+	position: absolute;
+	top: -2px;
 	content: "\2304";
-	font-size: 10px;
+	font-weight: bolder;
 	color: black;
 	display: inline-block;
-	margin-left: 5px;
+	margin-left: 2px;
 }
 
 /* Get purchase button container */
@@ -196,12 +198,9 @@ body::-webkit-scrollbar {
 		width: 80px;
 	}
 	.nav-links {
-		gap: 12px;
+		gap: 20px;
 	}
 	.nav-links li {
 		font-size: 12px;
-	}
-	.nav-links li::after {
-		display: none;
 	}
 }
