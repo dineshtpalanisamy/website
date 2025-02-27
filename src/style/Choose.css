@@ -16,3 +16,55 @@
 .why {
 	font-weight: 800;
 }
+.card-one,
+.card-two,
+.card-three {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 20px;
+	row-gap: 20px;
+	color: #ffffff;
+	border-radius: 10px;
+}
+.card-one {
+	background-color: #ff672d;
+}
+.card-three {
+	background-color: #43a3ff;
+}
+.card-two {
+	background-color: #29c98b;
+}
+.card-one h1,
+.card-two h1,
+.card-one three {
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+.card-one h2,
+.card-two h2,
+.card-one three {
+	font-size: 30px;
+	line-height: 40px;
+}
+.list-item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	gap: 20px;
+	padding-inline: 20px;
+}
+.list-tag {
+	padding: 5px 20px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid white;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 15px;
+}
