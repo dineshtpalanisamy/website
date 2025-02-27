@@ -129,14 +129,6 @@ body::-webkit-scrollbar {
 	display: none;
 	cursor: pointer;
 }
-
-/* .get-quote::after {
-  content: '\25B6';            
-  font-size: 8px;               
-  color: #FFFFFF;                
-  margin-left: 8px;
-} */
-
 /* RESPONSIVENESS */
 
 /* Below 768px */
