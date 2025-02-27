@@ -11,15 +11,21 @@
 	justify-content: center;
 	align-items: center;
 }
-.ele-1 h1 {
-	padding: 10px 20px;
-	width: auto;
-	font-size: 12px;
-	font-weight: 500;
-	border-radius: 20px;
+.ele-1 {
+	border-radius: 50px;
 	color: #013adf;
 	background-color: #d7dee8;
+	padding: 10px 20px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 500;
 }
+
 .ele-2 h1 {
 	font-size: 50px;
 	font-weight: bolder;

@@ -24,9 +24,7 @@ const Elements = () => {
 		<>
 			<section className="elements">
 				<div className="container elements-desc">
-					<div className="ele-1">
-						<h1>YOU DON'T NEED ANY EXTERNAL PLUGINS.</h1>
-					</div>
+					<h1 className="ele-1">YOU DON'T NEED ANY EXTERNAL PLUGINS.</h1>
 					<div className="ele-2">
 						<h1>
 							<span className="gradient-text"> 100+</span> Elements included.
