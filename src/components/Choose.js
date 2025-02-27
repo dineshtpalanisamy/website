@@ -130,6 +130,11 @@ const Choose = () => {
 								style={{ width: "50px", height: "50px", objectFit: "contain" }}
 							></img>
 						</div>
+						<div className="round-box">
+							<div className="round-box-1">Primary Details</div>
+							<div className="round-box-2">Offer Details</div>
+							<div className="round-box-3">Address Details</div>
+						</div>
 					</div>
 				</div>
 			</section>

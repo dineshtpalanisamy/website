@@ -77,12 +77,12 @@
 	line-height: 15px;
 }
 .gradient {
-	height: 600px;
+	height: 700px;
 	padding-inline: 40px;
 	background: linear-gradient(
 		to right,
-		rgba(231, 190, 243, 0.2),
-		rgba(215, 222, 232, 0.2)
+		rgba(231, 190, 243, 0.5),
+		rgba(215, 222, 232, 0.5)
 	);
 }
 .num {
@@ -128,7 +128,30 @@
 	position: relative;
 	bottom: 0;
 }
-
+.round-box {
+	padding: 20px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.round-box-1,
+.round-box-2,
+.round-box-3 {
+	font-size: 12px;
+	font-weight: 500;
+	color: white;
+	color: #707070;
+	padding: 10px 20px;
+	width: auto;
+	border-radius: 20px;
+	background-color: #ffffff;
+}
+.round-box-1 {
+	background-color: #013adf;
+	color: #ffffff;
+}
 /* RESPONSIVENESS */
 
 /* Below 768px */
@@ -137,7 +160,7 @@
 		font-size: 180px;
 	}
 	.gradient {
-		height: 720px;
+		height: 890px;
 	}
 	.lite-txt {
 		padding-inline: 10px;
