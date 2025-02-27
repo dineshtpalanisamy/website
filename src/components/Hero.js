@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Include Bootstrap for styling
 const Hero = () => {
 	return (
 		<>
-			<div className="hero">
+			<section className="hero">
 				<div className="container">
 					<div className="row">
 						<div className="col-sm-12 col-md-12 col-lg-6 left-side">
@@ -53,7 +53,8 @@ const Hero = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+			<section className="icon-box"></section>
 		</>
 	);
 };

@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
 }
 
 .nav-links li {
-	font-size: 16px; /* Font size */
+	font-size: 15px; /* Font size */
 	font-weight: 500; /* Font weight */
 	line-height: 18px; /* Line height */
 	text-align: left; /* Text alignment */
@@ -67,13 +67,12 @@ body::-webkit-scrollbar {
 	cursor: pointer; /* Pointer cursor on hover */
 	position: relative; /* For positioning arrow if needed */
 }
-
 .nav-links li::after {
 	content: "\2304";
-	font-size: 20px;
+	font-size: 10px;
 	color: black;
-	margin-left: 2px;
 	display: inline-block;
+	margin-left: 5px;
 }
 
 /* Get purchase button container */
@@ -195,5 +194,14 @@ body::-webkit-scrollbar {
 @media (min-width: 768px) and (max-width: 1023px) {
 	.logo img {
 		width: 80px;
+	}
+	.nav-links {
+		gap: 12px;
+	}
+	.nav-links li {
+		font-size: 12px;
+	}
+	.nav-links li::after {
+		display: none;
 	}
 }
