@@ -47,6 +47,13 @@
 	color: black;
 	margin-bottom: 20px;
 }
+.gradient-text {
+	background: linear-gradient(to right, #e7bef3, #013adf);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	display: inline-block;
+}
 
 .sec-box h1 {
 	font-size: clamp(40px, 5vw, 70px); /* Min 40px, prefers 5vw, max 70px */

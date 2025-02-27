@@ -32,7 +32,11 @@ const Hero = () => {
 								</div>
 							</div>
 							<div className="sec-box">
-								<h1> Have your dream site in minutes for University</h1>
+								<h1>
+									{" "}
+									Have your dream site in minutes for{" "}
+									<span className="gradient-text"> University</span>
+								</h1>
 							</div>
 							<div className="third-box">
 								<p>
