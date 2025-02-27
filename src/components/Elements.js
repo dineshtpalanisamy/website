@@ -3,6 +3,23 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Include Bootstrap for styling
 import "../style/Elements.css";
 
 const Elements = () => {
+	const features = [
+		{ icon: "favorite", label: "Brand" },
+		{ icon: "badge", label: "Button" },
+		{ icon: "favorite", label: "Badge" },
+		{ icon: "badge", label: "Language Switcher" },
+		{ icon: "favorite", label: "Call to action" },
+		{ icon: "favorite", label: "Animated Button" },
+		{ icon: "badge", label: "TimeLine" },
+		{ icon: "favorite", label: "Exam Preparation" },
+		{ icon: "badge", label: "Card" },
+		{ icon: "favorite", label: "Call to action" },
+		{ icon: "favorite", label: "Brand" },
+		{ icon: "badge", label: "Button" },
+		{ icon: "favorite", label: "Badge" },
+		{ icon: "badge", label: "Card" },
+		{ icon: "favorite", label: "Call to action" },
+	];
 	return (
 		<>
 			<div className="elements">
@@ -15,86 +32,16 @@ const Elements = () => {
 					</div>
 					<div className="ele-3">
 						<div className="icons">
-							<div className="icons-txt">
-								<div className="d-flex">
-									<div>
-										<span className="material-icons">favorite</span>
+							{features.map((feature, index) => (
+								<div className="icons-txt">
+									<div className="d-flex">
+										<div>
+											<span className="material-icons">{feature.icon}</span>
+										</div>
+										<div>{feature.label}</div>
 									</div>
-									<div>Brand</div>
 								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex g-5">
-									<div>
-										<span class="material-icons">badge</span>
-									</div>
-									<div>Button</div>
-								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex">
-									<div>
-										<span className="material-icons">favorite</span>
-									</div>
-									<div>Badge</div>
-								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex">
-									<div>
-										<span className="material-icons">favorite</span>
-									</div>
-									<div>Card</div>
-								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex">
-									<div>
-										<span className="material-icons">favorite</span>
-									</div>
-									<div>Call to action</div>
-								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex">
-									<div>
-										<span className="material-icons">favorite</span>
-									</div>
-									<div>Brand</div>
-								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex g-5">
-									<div>
-										<span class="material-icons">badge</span>
-									</div>
-									<div>Button</div>
-								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex">
-									<div>
-										<span className="material-icons">favorite</span>
-									</div>
-									<div>Badge</div>
-								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex">
-									<div>
-										<span className="material-icons">favorite</span>
-									</div>
-									<div>Card</div>
-								</div>
-							</div>
-							<div className="icons-txt">
-								<div className="d-flex">
-									<div>
-										<span className="material-icons">favorite</span>
-									</div>
-									<div>Call to action</div>
-								</div>
-							</div>
+							))}
 						</div>
 						<div className="side-btn">
 							<h2>Features Request</h2>

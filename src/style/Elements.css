@@ -46,14 +46,15 @@
 	border-radius: 20px;
 }
 .icons-txt {
-	padding: 10px 20px;
-	border-radius: 25px;
+	padding: 15px 20px;
+	border-radius: 50px;
 	background-color: #ffffff;
 	color: #b5b5b5cc;
 	font-weight: 600;
-	height: 50px;
 	margin-left: 20px;
+	margin-bottom: 20px;
 }
+
 .material-icons {
 	margin-right: 5px;
 }
