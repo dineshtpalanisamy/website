@@ -3,8 +3,7 @@
 .icon-box {
 	padding: 60px 20px; /* Responsively allocate space */
 }
-.left-side,
-.right-side {
+.left-side {
 	padding: 20px 0;
 	display: flex;
 	flex-direction: column;
@@ -12,6 +11,24 @@
 	text-align: left;
 	align-items: flex-start;
 }
+.right-side {
+	display: flex;
+}
+.side-btn {
+	width: 30px;
+	height: 180px;
+	border-radius: 20px;
+	background-color: #2f57ef;
+	display: flex;
+	justify-content: center;
+	margin: auto 0;
+}
+.side-btn h2 {
+	color: #ffffff;
+	font-size: 15px;
+	writing-mode: vertical-rl;
+}
+
 .first-box {
 	display: flex;
 	gap: 50px;
@@ -26,7 +43,7 @@
 }
 .enamato-text h2,
 .star-text h2 {
-	font-size: clamp(16px, 2vw, 24px); /* Min 16px, prefers 2vw, max 24px */
+	font-size: clamp(15px, 2vw, 20px); /* Min 16px, prefers 2vw, max 24px */
 	color: black;
 	margin-bottom: 20px;
 }

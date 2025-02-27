@@ -43,13 +43,18 @@ const Hero = () => {
 							</div>
 						</div>
 						<div className="col-sm-12 col-md-12 col-lg-6 right-side">
-							<img
-								src="/assets/banner.png"
-								alt="Banner Background"
-								loading="lazy"
-								className="img-fluid"
-								style={{ width: "100%", height: "auto" }}
-							></img>
+							<div>
+								<img
+									src="/assets/banner.png"
+									alt="Banner Background"
+									loading="lazy"
+									className="img-fluid"
+									style={{ width: "100%", height: "auto" }}
+								></img>
+							</div>
+							<div className="side-btn">
+								<h2>Features Request</h2>
+							</div>
 						</div>
 					</div>
 				</div>
