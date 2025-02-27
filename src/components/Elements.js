@@ -81,13 +81,20 @@ const Elements = () => {
 									</div>
 									<div className="right-sub-2">
 										<span className="material-icons">favorite</span>
-
 										<h2>Course with tab</h2>
 									</div>
 								</div>
 								<div className="right-5">
-									<div className="right-sub-3"></div>
-									<div className="right-sub-4"></div>
+									<div className="right-sub-3">
+										<span className="material-icons">favorite</span>
+
+										<h2>Left side bar</h2>
+									</div>
+									<div className="right-sub-4">
+										<span className="material-icons">favorite</span>
+
+										<h2>Right side bar</h2>
+									</div>
 								</div>
 							</div>
 							<div className="last-right-two"></div>
