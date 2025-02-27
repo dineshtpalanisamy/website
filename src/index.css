@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
 }
 
 .logo img {
-	width: 124.07px; /* Fixed width */
+	width: 124px; /* Fixed width */
 	height: 87px; /* Maintain aspect ratio */
 	display: block; /* Prevent inline spacing issues */
 	object-fit: contain;
