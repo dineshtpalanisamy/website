@@ -1,0 +1,18 @@
+.choose {
+	padding: 40px 20px;
+}
+.all {
+	width: 160px;
+	border-radius: 40px;
+	padding: 5px 5px;
+	background-color: #faf8fe;
+	color: #e7bef3;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.why {
+	font-weight: 800;
+}
