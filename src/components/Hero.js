@@ -54,7 +54,28 @@ const Hero = () => {
 					</div>
 				</div>
 			</section>
-			<section className="icon-box"></section>
+			<section className="icon-box">
+				<div className="container icon-box-content">
+					<div className="row">
+						<div className="col-sm-12 col-md-6 col-lg-4 card">
+							<figure></figure>
+							<figcaption></figcaption>
+						</div>
+						<div className="col-sm-12 col-md-6 col-lg-4 card">
+							<figure></figure>
+							<figcaption></figcaption>
+						</div>
+						<div className="col-sm-12 col-md-6 col-lg-4 card">
+							<figure></figure>
+							<figcaption></figcaption>
+						</div>
+						<div className="col-sm-12 col-md-6 col-lg-4 card">
+							<figure></figure>
+							<figcaption></figcaption>
+						</div>
+					</div>
+				</div>
+			</section>
 		</>
 	);
 };
