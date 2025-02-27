@@ -96,12 +96,12 @@ body::-webkit-scrollbar {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border: 4px solid transparent;
+	border: 2px solid transparent;
 	background-clip: padding-box;
 	position: relative;
 }
 
-/* Apply gradient*/
+/* Apply gradient border using pseudo-elements */
 .get-purchase::before {
 	content: "";
 	position: absolute;
@@ -109,9 +109,12 @@ body::-webkit-scrollbar {
 	border-radius: 20px; /* Ensures rounded corners */
 	padding: 2px; /* Border thickness */
 	background: linear-gradient(to right, #e7bef3, #013adf);
+
+	/* Standard and vendor-prefixed masking for better compatibility */
 	-webkit-mask: linear-gradient(white, white) content-box,
 		linear-gradient(white, white);
 	-webkit-mask-composite: xor;
+	mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
 	mask-composite: exclude;
 }
 
