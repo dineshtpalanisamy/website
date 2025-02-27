@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 .elements {
 	padding: 40px 20px;
 }
@@ -32,7 +34,12 @@
 	gap: 20px;
 }
 .icons-txt {
-	padding: 10px 10px;
-	border-radius: 20px;
+	padding: 10px 20px;
+	border-radius: 25px;
 	background-color: #ffffff;
+	color: #b5b5b5cc;
+	font-weight: 600;
+}
+.material-icons {
+	margin-right: 5px;
 }

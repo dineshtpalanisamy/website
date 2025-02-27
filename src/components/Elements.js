@@ -15,15 +15,19 @@ const Elements = () => {
 					</div>
 					<div className="ele-3">
 						<div className="icons-txt">
-							<div className="d-flex g-5">
-								<div></div>
+							<div className="d-flex">
+								<div>
+									<span className="material-icons">favorite</span>
+								</div>
 								<div>Brand</div>
 							</div>
 						</div>
 						<div className="icons-txt">
 							<div className="d-flex g-5">
-								<div></div>
-								<div>Brand</div>
+								<div>
+									<span class="material-icons">badge</span>
+								</div>
+								<div>Button</div>
 							</div>
 						</div>
 
