@@ -14,26 +14,93 @@ const Elements = () => {
 						<h1>100+ Elements included.</h1>
 					</div>
 					<div className="ele-3">
-						<div className="icons-txt">
-							<div className="d-flex">
-								<div>
-									<span className="material-icons">favorite</span>
+						<div className="icons">
+							<div className="icons-txt">
+								<div className="d-flex">
+									<div>
+										<span className="material-icons">favorite</span>
+									</div>
+									<div>Brand</div>
 								</div>
-								<div>Brand</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex g-5">
+									<div>
+										<span class="material-icons">badge</span>
+									</div>
+									<div>Button</div>
+								</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex">
+									<div>
+										<span className="material-icons">favorite</span>
+									</div>
+									<div>Badge</div>
+								</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex">
+									<div>
+										<span className="material-icons">favorite</span>
+									</div>
+									<div>Card</div>
+								</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex">
+									<div>
+										<span className="material-icons">favorite</span>
+									</div>
+									<div>Call to action</div>
+								</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex">
+									<div>
+										<span className="material-icons">favorite</span>
+									</div>
+									<div>Brand</div>
+								</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex g-5">
+									<div>
+										<span class="material-icons">badge</span>
+									</div>
+									<div>Button</div>
+								</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex">
+									<div>
+										<span className="material-icons">favorite</span>
+									</div>
+									<div>Badge</div>
+								</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex">
+									<div>
+										<span className="material-icons">favorite</span>
+									</div>
+									<div>Card</div>
+								</div>
+							</div>
+							<div className="icons-txt">
+								<div className="d-flex">
+									<div>
+										<span className="material-icons">favorite</span>
+									</div>
+									<div>Call to action</div>
+								</div>
 							</div>
 						</div>
-						<div className="icons-txt">
-							<div className="d-flex g-5">
-								<div>
-									<span class="material-icons">badge</span>
-								</div>
-								<div>Button</div>
-							</div>
+						<div className="side-btn">
+							<h2>Features Request</h2>
 						</div>
-
-						<div></div>
 					</div>
-					<div></div>
+					<div className="ele-4"></div>
 				</div>
 			</div>
 		</>
