@@ -138,6 +138,18 @@ const Choose = () => {
 					</div>
 				</div>
 			</section>
+			<section className="form-type">
+				<div className="container form-sheet">
+					<div className="row">
+						<div className="col-sm-12 col-lg-4"></div>
+						<div className="col-sm-12 col-lg-4"></div>
+						<div className="col-sm-12 col-lg-4"></div>
+					</div>
+					<div className="row">
+						<div className="col-sm-12 col-lg-4"></div>
+					</div>
+				</div>
+			</section>
 		</>
 	);
 };
