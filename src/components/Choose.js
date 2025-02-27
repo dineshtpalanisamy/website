@@ -83,7 +83,7 @@ const Choose = () => {
 							</div>
 							<div>
 								<img
-									src="/assets/02.png"
+									src="/assets/03.png"
 									alt="Create your own websites"
 									loading="lazy"
 									style={{
