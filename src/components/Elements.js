@@ -100,7 +100,9 @@ const Elements = () => {
 							<h2>Features Request</h2>
 						</div>
 					</div>
-					<div className="ele-4"></div>
+					<div className="ele-4">
+						<p>SAVE YOUR TIME AND MONEY BY USING READY ELEMENTS</p>
+					</div>
 				</div>
 			</div>
 		</>
