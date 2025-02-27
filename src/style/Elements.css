@@ -88,4 +88,13 @@
 	line-height: 60px;
 	font-weight: bolder;
 	text-align: left;
+	margin-bottom: 20px;
+}
+.right-3 {
+	width: 500px;
+	color: #b5b5b5cc;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	text-align: left;
 }

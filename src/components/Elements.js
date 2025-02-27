@@ -69,7 +69,10 @@ const Elements = () => {
 								<h1 className="right-2">
 									Find Course With Advanced Filters & Full Customization
 								</h1>
-								<div className="right-3"></div>
+								<p className="right-3">
+									Quickly discover the perfect course with powerful,
+									customizable filters tailored to your needs.
+								</p>
 								<div className="right-4">
 									<div className="right-sub-1"></div>
 									<div className="right-sub-2"></div>
