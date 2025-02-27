@@ -3,17 +3,16 @@
 	padding: 40px 20px; /* Responsively allocate space */
 }
 .left-side {
-	padding-inline: 30px; /* allocate space left and right  */
+	padding: 80px 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: left;
 	align-items: flex-start;
-	row-gap: 20px;
 }
 .first-box {
 	display: flex;
-	gap: 100px;
+	gap: 50px;
 	width: 100%;
 }
 
@@ -24,7 +23,7 @@
 	margin-left: 2px;
 }
 h2 {
-	font-size: 20px;
+	font-size: clamp(16px, 2vw, 24px); /* Min 16px, prefers 2vw, max 24px */
 	color: black;
 	margin-bottom: 20px;
 }
@@ -33,8 +32,8 @@ h2 {
 	flex-wrap: wrap;
 }
 h1 {
-	font-size: 80px;
-	line-height: 90px;
+	font-size: clamp(40px, 5vw, 70px); /* Min 40px, prefers 5vw, max 70px */
+	line-height: clamp(50px, 6vw, 90px);
 	color: black;
 	font-weight: 800;
 }
@@ -46,4 +45,16 @@ h1 {
 	font-weight: bold;
 	text-decoration: underline;
 	text-underline-offset: 8px;
+}
+
+/* RESPONSIVENESS */
+
+/* Below 768px */
+@media (max-width: 767px) {
+}
+/* For screen widths between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+/* For screen widths between 1024px and 1440px */
+@media (min-width: 1024px) and (max-width: 1350px) {
 }

@@ -6,9 +6,9 @@ const Hero = () => {
 	return (
 		<>
 			<div className="hero">
-				<div className="container-fluid">
+				<div className="container">
 					<div className="row">
-						<div className="col-sm-12 col-md-6 col-lg-6 left-side">
+						<div className="col-sm-12 col-md-12 col-lg-6 left-side">
 							<div className="first-box">
 								<div>
 									<div className="d-flex">
@@ -42,7 +42,7 @@ const Hero = () => {
 								</p>
 							</div>
 						</div>
-						<div className="col-sm-12 col-md-6 col-lg-6">
+						<div className="col-sm-12 col-md-12 col-lg-6 right-side">
 							<img
 								src="/assets/banner.png"
 								alt="Banner Background"
