@@ -12,7 +12,7 @@ const Choose = () => {
 				</div>
 				<div className="container">
 					<div className="row" style={{ gap: "10px" }}>
-						<div className="col card-one">
+						<div className="col-sm-12 col-lg-4 card-one">
 							<div>
 								<h1>FOR ONLINE COURSE</h1>
 								<h2>
@@ -42,7 +42,7 @@ const Choose = () => {
 								<div className="list-tag">& More</div>
 							</div>
 						</div>
-						<div className="col card-two">
+						<div className="col-sm-12 col-lg-4 card-two">
 							<div>
 								<h1>FOR ONLINE COURSE</h1>
 								<h2>
