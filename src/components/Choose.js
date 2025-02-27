@@ -141,7 +141,7 @@ const Choose = () => {
 			<section className="form-type">
 				<div className="container form-sheet">
 					<div className="row">
-						<div className="col-sm-12 col-lg-4 user-content">
+						<div className="col-sm-12 col-md-4 col-lg-4 user-content">
 							<label className="user-dts">Name</label>
 							<input
 								type="text"
@@ -149,7 +149,7 @@ const Choose = () => {
 								className="user-input"
 							/>
 						</div>
-						<div className="col-sm-12 col-lg-4 user-content">
+						<div className="col-sm-12 col-md-4 col-lg-4 user-content">
 							<label className="user-dts">Email</label>
 							<input
 								type="email"
@@ -157,7 +157,7 @@ const Choose = () => {
 								className="user-input"
 							/>
 						</div>
-						<div className="col-sm-12 col-lg-4 user-content">
+						<div className="col-sm-12 col-md-4 col-lg-4 user-content">
 							<label className="user-dts">Gender</label>
 							<div className="gender-container">
 								<label className="gender-box">
@@ -172,7 +172,14 @@ const Choose = () => {
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-sm-12 col-lg-4"></div>
+						<div className="col-sm-12 col-md-4 col-lg-4 user-content">
+							<label className="user-dts">Mobile</label>
+							<input
+								type="number"
+								placeholder="Enter Number"
+								className="user-input"
+							/>
+						</div>
 					</div>
 				</div>
 			</section>

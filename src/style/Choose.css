@@ -152,6 +152,9 @@
 	background-color: #013adf;
 	color: #ffffff;
 }
+.form-type {
+	padding: 0 20px;
+}
 .form-sheet {
 	padding: 20px 20px;
 	width: 100%;
@@ -173,6 +176,7 @@
 	border-radius: 8px;
 	padding: 10px 10px;
 	border: 1px solid #00000014;
+	margin-bottom: 10px;
 }
 .gender-container {
 	display: flex;
