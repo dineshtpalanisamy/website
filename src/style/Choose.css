@@ -21,7 +21,7 @@
 .card-three {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: start;
 	align-items: center;
 	padding: 40px 20px;
 	row-gap: 20px;
@@ -33,26 +33,27 @@
 			cover,
 		#ff672d;
 }
-.card-three {
-	background: url("/public/assets/sun-shadow-right-2.png") no-repeat center
-			center / cover,
-		#43a3ff;
-}
+
 .card-two {
 	background: url("/public/assets/sun-shadow-right-3.png") no-repeat center
 			center / cover,
 		#29c98b;
 }
+.card-three {
+	background: url("/public/assets/sun-shadow-right-2.png") no-repeat center
+			center / cover,
+		#43a3ff;
+}
 .card-one h1,
 .card-two h1,
-.card-one three {
+.card-three h1 {
 	font-size: 20px;
 	line-height: 20px;
 	margin-bottom: 30px;
 }
 .card-one h2,
 .card-two h2,
-.card-one three {
+.card-three h2 {
 	font-size: 30px;
 	line-height: 40px;
 }
