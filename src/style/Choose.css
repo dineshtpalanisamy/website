@@ -81,8 +81,8 @@
 	padding-inline: 40px;
 	background: linear-gradient(
 		to right,
-		rgba(231, 190, 243, 0.5),
-		rgba(215, 222, 232, 0.5)
+		rgba(231, 190, 243, 0.2),
+		rgba(215, 222, 232, 0.2)
 	);
 }
 .num {
