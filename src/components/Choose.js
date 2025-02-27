@@ -5,8 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Include Bootstrap for styling
 const Choose = () => {
 	return (
 		<>
-			<div className="">
-				<div className="container choose">
+			<section className="choose">
+				<div className="container ">
 					<h1 className="all">ALL IN ONE THERE</h1>
 					<h2 className="why">Why Choose Histudy.</h2>
 				</div>
@@ -104,7 +104,8 @@ const Choose = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+			<section className="n"></section>
 		</>
 	);
 };
