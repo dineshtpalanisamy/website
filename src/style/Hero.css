@@ -105,6 +105,9 @@
 	flex-wrap: wrap;
 	color: #faf8fe;
 }
+.card:hover {
+	transform: scale(1.05);
+}
 /* RESPONSIVENESS */
 
 /* Below 768px */
