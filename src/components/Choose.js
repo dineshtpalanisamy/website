@@ -157,7 +157,19 @@ const Choose = () => {
 								className="user-input"
 							/>
 						</div>
-						<div className="col-sm-12 col-lg-4"></div>
+						<div className="col-sm-12 col-lg-4 user-content">
+							<label className="user-dts">Gender</label>
+							<div className="gender-container">
+								<label className="gender-box">
+									<input type="radio" name="gender" value="male" />
+									Male
+								</label>
+								<label className="gender-box">
+									<input type="radio" name="gender" value="female" />
+									Female
+								</label>
+							</div>
+						</div>
 					</div>
 					<div className="row">
 						<div className="col-sm-12 col-lg-4"></div>
