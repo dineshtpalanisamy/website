@@ -2,6 +2,7 @@ import React from "react";
 import Headers from "./Header";
 import Hero from "./Hero";
 import Choose from "./Choose.js";
+import Elements from "./Elements.js";
 
 const Home = () => {
 	return (
@@ -9,6 +10,7 @@ const Home = () => {
 			<Headers />
 			<Hero />
 			<Choose />
+			<Elements />
 		</>
 	);
 };
