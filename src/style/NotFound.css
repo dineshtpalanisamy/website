@@ -1,0 +1,46 @@
+.not-found-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Poppins";
+	color: rgba(0, 0, 0, 1);
+}
+h1 {
+	font-weight: 700;
+	font-size: clamp(30px, 4vw, 45px);
+	line-height: clamp(45px, 6vw, 67px);
+	margin-bottom: 16px;
+}
+p {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+.not-found {
+	font-family: "Inter";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	width: auto; /* Automatically adjusts to content */
+	color: #ffffff; /* White text */
+	border: none; /* Removes border */
+	padding: 3px 12px;
+	border-radius: 6px; /* Rounded corners */
+	display: flex; /* Flex to align text and arrow */
+	align-items: center; /* Vertically centers content */
+	justify-content: center; /* Horizontally centers content */
+	background: rgba(108, 71, 255, 1);
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+	box-shadow: 0px 1px 3px 0px rgba(33, 33, 38, 0.2),
+		0px 1px 0px 0px rgba(255, 255, 255, 0.07) inset,
+		0px 0px 0px 1px rgba(108, 71, 255, 1);
+}
+.not-found:hover {
+	transform: scale(1.05);
+	background-color: #3b1c99; /* Darker background on hover */
+	box-shadow: none;
+}
