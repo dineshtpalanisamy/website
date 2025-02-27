@@ -24,7 +24,7 @@ p {
 	height: 8px;
 	background: linear-gradient(
 		to right,
-		rgba(108, 71, 255, 1) 204px,
+		#2f57ef 204px,
 		rgba(217, 217, 217, 1) 204px
 	);
 }
