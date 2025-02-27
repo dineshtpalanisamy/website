@@ -1,4 +1,3 @@
-import react from "react";
 import "../style/Choose.css";
 import "bootstrap/dist/css/bootstrap.min.css"; // Include Bootstrap for styling
 
