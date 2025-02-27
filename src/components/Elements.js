@@ -74,7 +74,11 @@ const Elements = () => {
 									customizable filters tailored to your needs.
 								</p>
 								<div className="right-4">
-									<div className="right-sub-1"></div>
+									<div className="right-sub-1">
+										<span className="material-icons">favorite</span>
+
+										<h2>Filter with toggle</h2>
+									</div>
 									<div className="right-sub-2"></div>
 								</div>
 								<div className="right-5">

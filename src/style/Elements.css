@@ -69,6 +69,7 @@
 	flex-direction: column;
 	justify-content: left;
 	align-items: start;
+	background-color: rgba(251, 248, 254, 0.2); /* 80% opacity */
 }
 .right-1 {
 	width: 130px;
@@ -90,6 +91,7 @@
 	text-align: left;
 	margin-bottom: 20px;
 }
+
 .right-3 {
 	width: 500px;
 	color: #b5b5b5cc;
@@ -97,4 +99,19 @@
 	line-height: 30px;
 	font-weight: 500;
 	text-align: left;
+}
+.right-4 {
+	display: flex;
+}
+.right-sub-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: #013adf;
+	color: #ffffff;
+}
+.right-sub-1 h2 {
+	font-size: 12px;
 }
