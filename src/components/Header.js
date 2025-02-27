@@ -68,9 +68,6 @@ const Header = () => {
 							>
 								{link.name}
 							</Link>
-							{activeIndex === index && (
-								<span className="arrow">{"\u276F"}</span>
-							)}
 						</li>
 					))}
 				</ul>
